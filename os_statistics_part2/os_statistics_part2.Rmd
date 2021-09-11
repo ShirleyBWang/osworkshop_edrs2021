@@ -114,22 +114,6 @@ Note that this differs from traditional inferrential statistics<sup>2</sup>, whi
 
 ---
 class: inverse, center, middle
-# Modeling Workflow
----
-## Typical ML Workflow
-
-<br /><br />
-
-.center[
-```{r workflow, echo=FALSE}
-include_graphics("workflow.png")
-```
-]
----
-## Incorporating Open Science into the ML Workflow
-
----
-class: inverse, center, middle
 # Signal and Noise
 ---
 class: onecol
@@ -338,4 +322,63 @@ count: false
 ```{r, echo=FALSE, out.width="70%"}
 include_graphics("kfold2.png")
 ```
+]
+
+---
+class: inverse, center, middle
+# Modeling Workflow
+---
+## Typical ML Workflow
+
+<br /><br />
+
+.center[
+```{r workflow, echo=FALSE}
+include_graphics("workflow.png")
+```
+]
+---
+class: twocol
+## Incorporating Open Science into the ML Workflow
+
+.pull-left[
+<br>
+The development and evaluation of machine learning models should be **open**, **transparent**, and **reproducible**.
+
+**Preregistration** of some methods (e.g., cross-validation procedure, model evaluation metrics, specific algorithms) can be useful.
+
+Be transparent about **model limitations**, including limits to generalizability. 
+
+Consider potential for **harm**. Does the model combat or entrench societal injustices?
+]
+
+.pull-right[
+```{r, echo = FALSE}
+include_graphics("osforml.png")
+```
+]
+
+---
+class: twocol
+## Thank you! 
+
+.pull-left[
+Shirley Wang <br />
+PhD Candidate, Harvard University <br />
+Clinical Psychology <br />
+Computational Science & Engineering
+
+Email: [shirleywang@g.harvard.edu](mailto:shirleywang@g.harvard.edu)<br/><br>
+Twitter: [@ShirleyBWang](https://twitter.com/ShirleyBWang)<br /><br>
+Website: [shirleywang.rbind.io](https://shirleywang.rbind.io/)<br />
+]
+
+.pull-right[
+```{r, echo = FALSE, out.width = "60%"}
+include_graphics("sw_headshot.jpeg")
+```
+]
+
+.footnote[
+All materials available on [github](https://github.com/ShirleyBWang/osworkshop_edrs2021). For more, see https://pittmethods.github.io/appliedml/. 
 ]
