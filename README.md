@@ -1,4 +1,4 @@
-Open Science Pre-Conference Workshop at EDRS 
+**Open Science Pre-Conference Workshop at EDRS**
 
 Link: https://edresearchsociety.org/2021/program-workshops.php
 
